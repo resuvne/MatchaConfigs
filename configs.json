@@ -1,6 +1,549 @@
 [
   {
     "name": "default",
+    "author": "Â§eRositaXTainyÂ§r",
+    "date": "2026-03-16",
+    "downloads": 0,
+    "data": {
+      "AimAssist": {
+        "Horizontal Speed": 5,
+        "Keybind": 0,
+        "Max Angle": 90,
+        "Only Clicking": true,
+        "Range": 5,
+        "Toggle": 0,
+        "Vertical Speed": 5,
+        "Vertically": false,
+        "Visible": true,
+        "enabled": false
+      },
+      "AirJump": {
+        "Keybind": 0,
+        "Legacy": false,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "Arraylist": {
+        "Keybind": 0,
+        "Opacity": 100,
+        "Show Modes": true,
+        "Size": 1,
+        "Spacing": -1,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": true
+      },
+      "Arrows": {
+        "Arrow Color": "0xffffffff",
+        "Arrow Size": 20,
+        "Friends": true,
+        "Keybind": 0,
+        "Mobs": false,
+        "Offscreen Only": true,
+        "Players": true,
+        "Radius": 50,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "AutoArmor": {
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "AutoClicker": {
+        "Hold": false,
+        "Keybind": 0,
+        "Max CPS": 12,
+        "Min CPS": 8,
+        "RightClick": false,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "AutoEat": {
+        "Delay": 10,
+        "Hunger": 18,
+        "Keybind": 0,
+        "Min Count": 1,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "AutoJump": {
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "AutoMove": {
+        "Keybind": 0,
+        "Speed": 0.25,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "AutoPickaxe": {
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "AutoSneak": {
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "AutoSprint": {
+        "Keybind": 0,
+        "Mode": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "AutoSwitch": {
+        "Delay": 0.5,
+        "First Slot": 0,
+        "Keybind": 0,
+        "Second Slot": 1,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "ClickGUI": {
+        "Description": true,
+        "Glass Opacity": 0.800000011920929,
+        "Keybind": 45,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": true
+      },
+      "Criticals": {
+        "Keybind": 0,
+        "Sentinel": true,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "Custom Fov": {
+        "Fov": 120,
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "Damage": {
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "Death Position": {
+        "Keybind": 0,
+        "Reset": false,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "Flight": {
+        "Bypass": true,
+        "Horizontal Speed": 1,
+        "Keybind": 0,
+        "NoClip": false,
+        "Sm Border": false,
+        "Toggle": 0,
+        "Vertical Speed": 0.5,
+        "Visible": true,
+        "enabled": false
+      },
+      "Fonts": {
+        "Font": 0,
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": true
+      },
+      "Fullbright": {
+        "Intensity": 1,
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "GuiMove": {
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "HUD": {
+        "BPS": true,
+        "Color": "0xd56de5ff",
+        "Coords": true,
+        "FPS": true,
+        "Gradient": false,
+        "Keybind": 0,
+        "Ping": true,
+        "Players": true,
+        "Server": true,
+        "TPS": true,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": true
+      },
+      "Hitbox": {
+        "Height": 2,
+        "Keybind": 0,
+        "Mobs": false,
+        "Toggle": 0,
+        "Visible": true,
+        "Width": 4,
+        "enabled": false
+      },
+      "Hub": {
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "HudEditor": {
+        "bps": {
+          "x": 580,
+          "y": 1020
+        },
+        "coords": {
+          "x": 20,
+          "y": 1020
+        },
+        "fps": {
+          "x": 150,
+          "y": 1020
+        },
+        "keybinds": {
+          "x": 15,
+          "y": 490
+        },
+        "ping": {
+          "x": 330,
+          "y": 1020
+        },
+        "player_counter": {
+          "x": 670,
+          "y": 1020
+        },
+        "server_ip": {
+          "x": 440,
+          "y": 1020
+        },
+        "tps": {
+          "x": 240,
+          "y": 1020
+        }
+      },
+      "ItemESP": {
+        "Alpha": 40,
+        "Color": "0x0000ffff",
+        "Keybind": 0,
+        "LineAlpha": 135,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "Jesus": {
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "Keybinds": {
+        "Keybind": 113,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "Killaura": {
+        "Keybind": 0,
+        "Mobs": false,
+        "Multiplier": 1,
+        "Range": 5,
+        "Rotations": 1,
+        "Toggle": 0,
+        "Type": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "KillauraReach": {
+        "Delay (ms)": 250,
+        "Hit mode": 0,
+        "Keybind": 0,
+        "Reach": 50,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "MidClick": {
+        "Keybind": 0,
+        "Mode": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "NameTags": {
+        "Armor": true,
+        "Keybind": 0,
+        "Matcha users": true,
+        "Opacity": 0.4000000059604645,
+        "Self": true,
+        "Show Distance": true,
+        "Size": 0.5,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "NoFall": {
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "NoHurtCam": {
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "NoRender": {
+        "Block Entities": false,
+        "Entities": false,
+        "Fire": false,
+        "Keybind": 0,
+        "Particles": false,
+        "Toggle": 0,
+        "Visible": true,
+        "Weather": false,
+        "enabled": false
+      },
+      "NoSlow": {
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "OreMine": {
+        "AncientDebris": false,
+        "BreakPlayerBlocks": true,
+        "Coal": false,
+        "Diamond": true,
+        "Emerald": false,
+        "Gold": false,
+        "Iron": false,
+        "Keybind": 0,
+        "Lapis": false,
+        "Quartz": false,
+        "Range": 3,
+        "Redstone": false,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "PacketAttack": {
+        "Draw Box": false,
+        "Keybind": 0,
+        "Max H speed": 3,
+        "Mode": 0,
+        "NoFall Packet": false,
+        "Orbit Radius": 3,
+        "Orbit Speed": 0.05000000074505806,
+        "Speed-Y": 1.7000000476837158,
+        "TeleportSpeed": 2,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "PacketAura": {
+        "Delay": 5,
+        "Keybind": 0,
+        "Mobs": false,
+        "Mode": 0,
+        "Multiplier": 1,
+        "Range": 3.5,
+        "Rotations": 0,
+        "Toggle": 0,
+        "Visible": false,
+        "enabled": false
+      },
+      "PacketMine": {
+        "Continue Reset": 1,
+        "Keybind": 0,
+        "Mine Range": 6,
+        "Mine Type": 0,
+        "MultiTask": 0,
+        "Speed": 1,
+        "Switch Back": false,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "Phase": {
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "PlayerJoin": {
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "Reach": {
+        "Keybind": 0,
+        "Reach": 7,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "Spawn": {
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "Speed": {
+        "Jump": true,
+        "Keybind": 0,
+        "Sprint": 0,
+        "Toggle": 0,
+        "Value": 1,
+        "Visible": true,
+        "enabled": false
+      },
+      "Step": {
+        "Keybind": 0,
+        "Step value": 2,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "StorageVisuals": {
+        "2D Box": false,
+        "3D Box": true,
+        "Barrel Color": "0x50b4ffff",
+        "Barrels": true,
+        "Chest Color": "0xffd700ff",
+        "Chests": true,
+        "Distance": true,
+        "Ender Chest": true,
+        "Ender Color": "0x8000ffff",
+        "Keybind": 0,
+        "Radius": 30,
+        "Toggle": 0,
+        "Trapped Chest": true,
+        "Trapped Color": "0xff5050ff",
+        "Visible": true,
+        "enabled": false
+      },
+      "Swing": {
+        "Keybind": 0,
+        "Speed": 12,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "Timer": {
+        "Keybind": 0,
+        "TPS": 20,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "TpMine": {
+        "Anti Border": false,
+        "Anti Gravel": false,
+        "Anti Lava": true,
+        "Blink Ticks": 1,
+        "Coal": false,
+        "Copper": false,
+        "Debug": false,
+        "Deepslate": true,
+        "Diamond": false,
+        "Emerald": false,
+        "Gold": false,
+        "Iron": false,
+        "Keybind": 0,
+        "Lapis": false,
+        "Lava Radius": 5,
+        "Netherite": false,
+        "Quartz": false,
+        "Range": 30,
+        "Redstone": false,
+        "Spawners": false,
+        "TP Speed": 3,
+        "Toggle": 0,
+        "Vein Size": 1,
+        "Visible": true,
+        "enabled": false
+      },
+      "Tracer": {
+        "Color": "0xffffffaf",
+        "Keybind": 0,
+        "Mobs": false,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "TriggerBot": {
+        "Delay": 0,
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "Unlock": {
+        "Keybind": 0,
+        "Toggle": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "Velocity": {
+        "Horizontal": 0,
+        "Keybind": 0,
+        "Toggle": 0,
+        "Vertical": 0,
+        "Visible": true,
+        "enabled": false
+      },
+      "ViewModel": {
+        "Eat Speed": 0.5,
+        "Eat Style": 0,
+        "EatAnim": false,
+        "Glint": false,
+        "Glint Color": "0xffffffff",
+        "Keybind": 0,
+        "Reset": false,
+        "Rotation X": 0,
+        "Rotation Y": 0,
+        "Rotation Z": 0,
+        "Scale X": 1,
+        "Scale Y": 1,
+        "Scale Z": 1,
+        "Swing Speed": 0.5,
+        "Swing Style": 0,
+        "SwingAnim": false,
+        "Toggle": 0,
+        "Translate X": 0,
+        "Translate Y": 0,
+        "Translate Z": 0,
+        "Visible": true,
+        "enabled": false
+      }
+    }
+  },
+  {
+    "name": "TAINY V2",
     "author": "§eRositaXTainy§r",
     "date": "2026-03-16",
     "downloads": 0,
